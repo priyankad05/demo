@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: medium;
+   
+}
+
+footer {
+    background-color: rgb(34,53,84);
+    overflow: hidden;
+    border-radius: 5px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.logo1 img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 8px;
+    top:15px;
+    background-image: #342663;
+}
+
+footer a {
+    text-decoration: none;
+    position:absolute;
+
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    
+}
+
+.event{
+    position:absolute;
+
+    left:30px;
+    top:230px;
+}
+.about{
+    position:absolute;
+
+    left:30px;
+    top:280px;
+}
+.contact{
+    position:absolute;
+
+    left:30px;
+    top:330px;
+}
+.insta img{
+    position:absolute;
+
+    width: 25px;
+    height: 25px;
+    left: 50px;
+    top:400px;
+    
+}
+
+.fb img{
+    width: 25px;
+    height: 25px;
+    left: 100px;
+    top:400px;
+    position:absolute;
+
+}
+.blood img{
+    position:absolute;
+
+    width: 250px;
+    height: 250px;
+    left:560px;
+    top:160px;
+    z-index: 1;
+}
+
+.terms1{
+    position:absolute;
+    left:500px;
+    top:400px;
+}
+.privacy{
+    position:absolute;
+    left:700px;
+    top:400px;
+}
+
+.top img{
+    position:absolute;
+    left:1150px;
+    top:350px;
+    height: 50px;
+    width: 50px;
+}
